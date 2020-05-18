@@ -1,0 +1,29 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch-poll": "npm run watch -- --watch-poll",
+        "hot": "NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "prod": "npm run production",
+        "production": "NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+    },
+    "devDependencies": {
+        "cross-env": "^5.1",
+        "laravel-mix": "^1.0",
+        "lodash": "^4.17.4",
+        "vue": "^2.5.13",
+        "vue-router": "^3.0.1",
+        "axios": "^0.17.1",
+        "stylus": "^0.54.5",
+        "stylus-loader": "^3.0.1",
+        "particles.js": "^2.0.0",
+        "better-scroll": "^1.8.0",
+        "element-ui": "^2.0.11",
+        "vuex": "^3.0.1",
+        "timeago.js": "^3.0.2",
+        "vue-simplemde": "^0.4.6",
+        "github-markdown-css": "^2.10.0"
+    }
+}

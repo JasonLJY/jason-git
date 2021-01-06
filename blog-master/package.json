@@ -15,7 +15,7 @@
         "lodash": "^4.17.4",
         "vue": "^2.5.13",
         "vue-router": "^3.0.1",
-        "axios": "^0.17.1",
+        "axios": "^0.21.1",
         "stylus": "^0.54.5",
         "stylus-loader": "^3.0.1",
         "particles.js": "^2.0.0",
